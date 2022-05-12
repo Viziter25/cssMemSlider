@@ -22,6 +22,7 @@
 
 .slider.active {
     display: block;
+    
 }
 
 img {
@@ -35,6 +36,15 @@ img {
     margin-top: 15px;
 }
 
+.dot-item {
+    display: flex;
+    cursor: pointer;
+}
+.dot:hover {
+    background-color: #04a5f6;
+   
+}
+
 .dot.active {
     background-color: #000000;
 }
@@ -44,8 +54,8 @@ span {
     height: 15px;
     border-radius: 50%;
     background-color: gray;
-    margin-right: 10px;
-    cursor: pointer;
+    margin: 10px;
+    transition-duration: 1s;
 }
 
 span:last-child {
