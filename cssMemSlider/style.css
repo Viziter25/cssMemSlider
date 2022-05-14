@@ -40,7 +40,7 @@ article img{ /*размер изображений слайдера*/
     border-radius: 20px;
 }
 article p{ /*размер изображений слайдера*/
-	width: 100%;
+	width: 50%;
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
