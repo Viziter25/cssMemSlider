@@ -26,7 +26,7 @@ body {
 #slides .text{ 
 	width: 500%;
 	line-height: 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 #overflow{ /*сркывает все, что находится за пределами этого блока*/
@@ -140,9 +140,9 @@ label {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 791px) {
 	#active {
-		margin: 4% 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 	article p {
