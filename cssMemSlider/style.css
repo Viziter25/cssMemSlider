@@ -1,11 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(3deg, #e6d16c, #16014c);
+    background: linear-gradient(3deg, #020200, #010004);
 }
 
 #slider { /*положение слайдера*/
     position: relative;
-	text-align: center;
 	justify-content: center;
 }
 
@@ -27,7 +26,7 @@ body {
 #slides .text{ 
 	width: 500%;
 	line-height: 0;
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 #overflow{ /*сркывает все, что находится за пределами этого блока*/
@@ -107,13 +106,13 @@ label {
 }
 
 #active{ /*расположение блока с переключателями*/
-	margin: 20% 0 0 0;
-    /* margin: 159px 0 0 890px; */
+	margin: -3% 0 0 91%;
 	text-align: center;
 }
 
 .text {
     margin-left: 100px;
+	color: #76c8ff;
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
@@ -135,4 +134,19 @@ label {
 }
 #slides .text{ /*анимация пролистывания изображений*/
 	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+
+
+
+@media (max-width: 320px) {
+	#active {
+		margin: 4% 0 0 0;
+	}
+
+	article p {
+		width: 100%;
+		text-align: center;
+	}
 }
